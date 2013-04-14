@@ -14,6 +14,10 @@ class ${className}Controller {
 
 
 
+
+
+
+
         [${propertyName}List: ${className}.list(params), ${propertyName}Total: ${className}.count()]
     }
 
