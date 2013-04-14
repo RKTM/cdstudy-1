@@ -11,6 +11,8 @@ class ${className}Controller {
     def list() {
         params.max = Math.min(params.max ? params.int('max') : 10, 100)
 
+
+
         [${propertyName}List: ${className}.list(params), ${propertyName}Total: ${className}.count()]
     }
 
